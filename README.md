@@ -158,7 +158,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENa_W41</code>
-        <td>What do you think will happen to the economy in the future?</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
     <ul>1 The U.S. economy will be STRONGER</ul>
 <ul>2 The U.S. economy will be WEAKER</ul>
@@ -167,7 +167,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENb_W41</code>
-        <td>What do you think will happen to healthcare in the future?</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
     <ul>1 Health care will be MORE affordable</ul>
 <ul>2 Health care will be LESS affordable</ul>
@@ -176,7 +176,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENc_W41</code>
-        <td>What do you think will happen race relations in the future?</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
     <ul>1 Race relations will IMPROVE</ul>
 <ul>2 Race relations will GET WORSE</ul>
@@ -185,7 +185,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENd_W41</code>
-        <td>What do you think will happen the United States importance in the future?</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
     <ul>1 The U.S. will be MORE important in the world</ul>
 <ul>2 The U.S. will be LESS important in the world</ul>
@@ -194,7 +194,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENe_W41</code>
-        <td>What do you think will happen to wealth gap in the future?</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
     <ul>1 The gap between the rich and the poor will GROW</ul>
 <ul>2 The gap between the rich and the poor will GET SMALLER</ul>
@@ -203,7 +203,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENf_W41</code>
-        <td>None</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
     <ul>1 The public education system will GET WORSE</ul>
 <ul>2 The public education system will IMPROVE</ul>
@@ -212,7 +212,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENg_W41</code>
-        <td>None</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
     <ul>1 Religion will become LESS important</ul>
 <ul>2 Religion will be ABOUT AS important as it is now</ul>
@@ -221,7 +221,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENhF1_W41</code>
-        <td>None</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
     <ul>1 People 65 and older will have a WORSE standard of living</ul>
 <ul>2 Refused</ul>
@@ -230,7 +230,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENiF2_W41</code>
-        <td>None</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
 <ul>1 Children will have a BETTER standard of living</ul>
 <ul>2 Children will have a WORSE standard of living</ul>
@@ -239,7 +239,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPENj_W41</code>
-        <td>None</td>
+        <td>Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.?</td>
         <td>
     <ul>1 The country will be LESS politically divided</ul>
 <ul>2 The country will be MORE politically divided</ul>
@@ -248,7 +248,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPEN2a_W41</code>
-        <td>None</td>
+        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> There will be a terrorist attack on the U.S. as bad as or worse than 9/11</td>
         <td>
     <ul>1 Will probably not happen</ul>
 <ul>2 Will definitely happen</ul>
