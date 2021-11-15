@@ -248,7 +248,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPEN2a_W41</code>
-        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> There will be a terrorist attack on the U.S. as bad as or worse than 9/11</td>
+        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> <br /> There will be a terrorist attack on the U.S. as bad as or worse than 9/11</td>
         <td>
     <ul>1 Will probably not happen</ul>
 <ul>2 Will definitely happen</ul>
@@ -259,7 +259,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPEN2b_W41</code>
-        <td>None</td>
+        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> <br /> The world will face a major energy crisis</td>
         <td>
     <ul>1 Will probably not happen</ul>
 <ul>2 Will definitely happen</ul>
@@ -269,7 +269,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPEN2c_W41</code>
-        <td>None</td>
+        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> <br /> There will be a cure for Alzheimer's disease</td>
         <td>
     <ul>1 Will probably not happen</ul>
 <ul>2 Will definitely happen</ul>
@@ -280,7 +280,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPEN2d_W41</code>
-        <td>None</td>
+        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> <br /> China will overtake the U.S. as the world's main superpower</td>
         <td>
     <ul>1 Will probably not happen</ul>
 <ul>2 Will definitely happen</ul>
@@ -290,7 +290,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPEN2e_W41</code>
-        <td>None</td>
+        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> <br /> A woman will be elected U.S. president</td>
         <td>
     <ul>1 Will probably not happen</ul>
 <ul>2 Will definitely happen</ul>
@@ -301,7 +301,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPEN2f_W41</code>
-        <td>None</td>
+        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> <br /> A Hispanic person will be elected U.S. president</td>
         <td>
     <ul>1 Will probably not happen</ul>
 <ul>2 Will definitely happen</ul>
@@ -312,7 +312,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPEN2g_W41</code>
-        <td>None</td>
+        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> <br /> Most Americans will work into their 70s to have enough resources to retire</td>
         <td>
     <ul>1 Will probably not happen</ul>
 <ul>2 Will definitely happen</ul>
@@ -322,7 +322,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HAPPEN2h_W41</code>
-        <td>None</td>
+        <td>How likely do you think it is that each of the following will happen in the next 30 years? <br /> <br /> There will be increasing violence against Jews in the U.S.</td>
         <td>
     <ul>1 Will probably not happen</ul>
 <ul>2 Will probably happen</ul>
@@ -333,7 +333,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>NATDEBT_W41</code>
-        <td>None</td>
+        <td>Which do you think is most likely to occur over the next 30 years? <br /> <br /> The national debt will...</td>
         <td>
     <ul>1 Stay about the same</ul>
 <ul>2 Grow larger</ul>
@@ -344,7 +344,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ENVC_W41</code>
-        <td>None</td>
+        <td>By the year 2050, do you think the overall condition of the environment will be... </td>
         <td>
     <ul>1 Worse than it is now</ul>
 <ul>2 About the same as it is now</ul>
@@ -354,7 +354,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>POPPROB_W41</code>
-        <td>None</td>
+        <td>In 2050, do you think population growth in the U.S. will be a...</td>
         <td>
     <ul>1 Minor problem</ul>
 <ul>2 Major problem</ul>
@@ -364,7 +364,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FTRWORRYa_W41</code>
-        <td>None</td>
+        <td>Still thinking about the future of our country, how worried are you, if at all, about each of the following? <br /> <br /> The overall soundness of our economic system</td>
         <td>
     <ul>1 Not too worried</ul>
 <ul>2 Fairly worried</ul>
@@ -375,7 +375,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FTRWORRYb_W41</code>
-        <td>None</td>
+        <td>Still thinking about the future of our country, how worried are you, if at all, about each of the following? <br /> <br /> The ability of public schools to provide a quality education</td>
         <td>
     <ul>1 Fairly worried</ul>
 <ul>2 Very worried</ul>
@@ -386,7 +386,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FTRWORRYc_W41</code>
-        <td>None</td>
+        <td>Still thinking about the future of our country, how worried are you, if at all, about each of the following? <br /> <br /> The way the government in Washington works</td>
         <td>
     <ul>1 Fairly worried</ul>
 <ul>2 Very worried</ul>
@@ -397,7 +397,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FTRWORRYd_W41</code>
-        <td>None</td>
+        <td>Still thinking about the future of our country, how worried are you, if at all, about each of the following? <br /> <br /> The ability of political leaders to solve the country’s biggest problems</td>
         <td>
     <ul>1 Fairly worried</ul>
 <ul>2 Very worried</ul>
@@ -408,7 +408,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FTRWORRYe_W41</code>
-        <td>None</td>
+        <td>Still thinking about the future of our country, how worried are you, if at all, about each of the following? <br /> <br /> The moral values of Americans</td>
         <td>
     <ul>1 Fairly worried</ul>
 <ul>2 Very worried</ul>
@@ -419,7 +419,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FTRWORRYf_W41</code>
-        <td>None</td>
+        <td>Still thinking about the future of our country, how worried are you, if at all, about each of the following? <br /> <br /> Climate change</td>
         <td>
     <ul>1 Not too worried</ul>
 <ul>2 Not at all worried</ul>
@@ -430,7 +430,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ELDCARE_W41</code>
-        <td>None</td>
+        <td>Thinking ahead 30 years from now, which do you think is more likely to happen?  <br /> <br /> Adults ages 65 and older will be...</td>
         <td>
     <ul>1 LESS prepared financially for retirement than older adults today</ul>
 <ul>2 BETTER prepared financially for retirement than older adults are today</ul>
@@ -439,7 +439,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ELDFINANCEF1_W41</code>
-        <td>None</td>
+        <td>Who do you think will be mostly responsible for paying for the long-term care older Americans may need?</td>
         <td>
     <ul>1 Family members</ul>
 <ul>2 Older Americans themselves</ul>
@@ -449,7 +449,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ELDFINANCEF2_W41</code>
-        <td>None</td>
+        <td>Who do you think should be mostly responsible for paying for the long-term care older Americans may need?</td>
         <td>
 <ul>1 Government</ul>
 <ul>2 Family members</ul>
@@ -459,7 +459,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOa_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Reducing the national debt</td>
         <td>
     <ul>1 A lower priority</ul>
 <ul>2 A top priority</ul>
@@ -470,7 +470,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOb_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Increasing spending for education</td>
         <td>
     <ul>1 An important, but not a top priority</ul>
 <ul>2 A top priority</ul>
@@ -481,7 +481,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOc_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Providing high-quality, affordable health care to all Americans</td>
         <td>
     <ul>1 A lower priority</ul>
 <ul>2 A top priority</ul>
@@ -492,7 +492,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOd_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Increasing spending on scientific research</td>
         <td>
     <ul>1 An important, but not a top priority</ul>
 <ul>2 A lower priority</ul>
@@ -503,7 +503,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOe_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Reducing the gap between the rich and the poor</td>
         <td>
     <ul>1 A top priority</ul>
 <ul>2 An important, but not a top priority</ul>
@@ -514,7 +514,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOfF1_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Reducing military spending</td>
         <td>
     <ul>1 A lower priority</ul>
 <ul>2 An important, but not a top priority</ul>
@@ -525,7 +525,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOgF1_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Reducing the number of undocumented immigrants coming into the U.S.</td>
         <td>
     <ul>1 A top priority</ul>
 <ul>2 An important, but not a top priority</ul>
@@ -536,7 +536,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOhF1_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Reducing spending on Social Security, Medicare and Medicaid</td>
         <td>
     <ul>1 A top priority</ul>
 <ul>2 Should not be done</ul>
@@ -547,7 +547,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOiF1_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br />  Increasing spending for roads, bridges and other infrastructure</td>
         <td>
     <ul>1 A top priority</ul>
 <ul>2 An important, but not a top priority</ul>
@@ -557,7 +557,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOjF1_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br />  Avoiding tax increases</td>
         <td>
     <ul>1 A top priority</ul>
 <ul>2 An important, but not a top priority</ul>
@@ -568,7 +568,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOkF2_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Increasing military spending</td>
         <td>
 <ul>1 An important, but not a top priority</ul>
 <ul>2 A lower priority</ul>
@@ -579,7 +579,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOlF2_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Allowing more immigrants into the U.S. who come here legally</td>
         <td>
 <ul>1 Should not be done</ul>
 <ul>2 An important, but not a top priority</ul>
@@ -590,7 +590,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOmF2_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Increasing spending on Social Security, Medicare and Medicaid</td>
         <td>
 <ul>1 A top priority</ul>
 <ul>2 A lower priority</ul>
@@ -601,7 +601,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOnF2_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Reducing spending for roads, bridges and other infrastructure</td>
         <td>
 <ul>1 Should not be done</ul>
 <ul>2 An important, but not a top priority</ul>
@@ -612,7 +612,8 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GOVPRIOoF2_W41</code>
-        <td>None</td>
+        <td>If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to each of the following?<br /> <br /> Dealing with climate change
+</td>
         <td>
 <ul>1 A top priority</ul>
 <ul>2 An important, but not a top priority</ul>
@@ -623,7 +624,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>GNATPROB_W41</code>
-        <td>None</td>
+        <td>Over the next 30 years, which of the following worries you more about the federal government?</td>
         <td>
     <ul>1 That the government will be too involved in problems that should be left to businesses and individuals</ul>
 <ul>2 That the government will do too little to solve problems facing the country</ul>
@@ -632,7 +633,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>WRKTRN1F1_W41</code>
-        <td>None</td>
+        <td>Over the next 30 years, who should be MOST responsible for making sure American workers have the right skills and training to get a good job? </td>
         <td>
     <ul>1 Employers</ul>
 <ul>2 Individuals themselves</ul>
@@ -643,7 +644,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>WRKTRN1F2_W41</code>
-        <td>None</td>
+        <td>Over the next 30 years, who should be MOST responsible for making sure young adults have the right skills and training to get a good job?</td>
         <td>
 <ul>1 Individuals themselves</ul>
 <ul>2 The education system</ul>
@@ -654,7 +655,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>WRKTRN2F1_W41</code>
-        <td>None</td>
+        <td>And of these, who should be the SECOND-MOST responsible for making sure American workers have the right skills and training to get a good job?<br /> (LIST WITH R’S ANSWER TO WRKTRN1F1 OMITTED)</td>
         <td>
     <ul>1 The education system</ul>
 <ul>2 Employers</ul>
@@ -665,7 +666,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>WRKTRN2F2_W41</code>
-        <td>None</td>
+        <td>And of these, who should be the SECOND-MOST responsible for making sure young adults have the right skills and training to get a good job?<br /> (LIST WITH R’S ANSWER TO WRKTRN1F1 OMITTED)</td>
         <td>
 <ul>1 The education system</ul>
 <ul>2 Government</ul>
@@ -676,7 +677,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>JOBSECURITY_W41</code>
-        <td>None</td>
+        <td>By the year 2050, will the average working person in this country have... </td>
         <td>
     <ul>1 Less job security</ul>
 <ul>2 About the same</ul>
@@ -686,7 +687,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>JOBBENEFITS_W41</code>
-        <td>None</td>
+        <td>And will the average working person in this country have employee benefits, such as health insurance, paid vacations and retirement plans that are... </td>
         <td>
     <ul>1 Not as good as they are now</ul>
 <ul>2 About the same as they are now</ul>
@@ -696,7 +697,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>AUTOWKPLC_W41</code>
-        <td>None</td>
+        <td>Overall, has the automation of jobs through new technology in the workplace... </td>
         <td>
     <ul>1 Neither helped nor hurt</ul>
 <ul>2 Mostly hurt American workers</ul>
@@ -706,7 +707,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ROBWRK_W41</code>
-        <td>None</td>
+        <td>Overall, how likely do you think it is that 30 years from now robots and computers will do much of the work currently done by humans? Do you think this will...</td>
         <td>
     <ul>1 Probably not happen</ul>
 <ul>2 Probably happen</ul>
@@ -717,7 +718,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ROBWRK2_W41</code>
-        <td>None</td>
+        <td>If robots and computers do much of the work currently done by humans, do you think this would be...</td>
         <td>
 <ul>1 A very bad thing for the country</ul>
 <ul>2 A somewhat bad thing for the country</ul>
@@ -728,7 +729,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>AUTOLKLY_W41</code>
-        <td>None</td>
+        <td>Within the next 30 years, how likely do you think it is that the type of work that you do will be done by robots or computers? Do you think this will...</td>
         <td>
     <ul>1 Definitely not happen</ul>
 <ul>2 Probably happen</ul>
@@ -739,7 +740,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ROBIMPACTa_W41</code>
-        <td>None</td>
+        <td>If robots and computers perform most of the jobs currently being done by humans, do you think it is likely or not that... <br />Inequality between the rich and the poor would increase</td>
         <td>
     <ul>1 Yes, likely</ul>
 <ul>2 No, not likely</ul>
@@ -748,7 +749,8 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ROBIMPACTb_W41</code>
-        <td>None</td>
+        <td>If robots and computers perform most of the jobs currently being done by humans, do you think it is likely or not that... <br />The economy would create many new, better-paying jobs for humans
+</td>
         <td>
     <ul>1 No, not likely</ul>
 <ul>2 Yes, likely</ul>
@@ -757,7 +759,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>LEGALIMG_W41</code>
-        <td>None</td>
+        <td>In order to maintain the strength of the U.S. economy over the next 30 years, do you think that LEGAL immigration will need to be... </td>
         <td>
     <ul>1 Maintained at current levels</ul>
 <ul>2 Decreased</ul>
@@ -767,7 +769,8 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FUTRCLASSa_W41</code>
-        <td>None</td>
+        <td>Over the next 30 years, do you think the share of Americans who are in each of the following groups will increase, decrease, or stay about the same?<br /> <br /> Upper Class
+</td>
         <td>
     <ul>1 Increase</ul>
 <ul>2 Decrease</ul>
@@ -777,7 +780,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FUTRCLASSb_W41</code>
-        <td>None</td>
+        <td>Over the next 30 years, do you think the share of Americans who are in each of the following groups will increase, decrease, or stay about the same?<br /> <br />Middle Class </td>
         <td>
     <ul>1 Stay about the same</ul>
 <ul>2 Decrease</ul>
@@ -787,7 +790,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FUTRCLASSc_W41</code>
-        <td>None</td>
+        <td>Over the next 30 years, do you think the share of Americans who are in each of the following groups will increase, decrease, or stay about the same?<br /> <br />Lower Class </td>
         <td>
     <ul>1 Increase</ul>
 <ul>2 Decrease</ul>
@@ -797,7 +800,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS1F1a_W41</code>
-        <td>None</td>
+        <td>On a different subject...<br /> <br /> When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say each of the following is? <br /> <br /> Women claiming they have experienced sexual harassment or assault when it hasn’t actually occurred</td>
         <td>
     <ul>1 Major problem</ul>
 <ul>2 Minor problem</ul>
@@ -807,7 +810,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS1F1b_W41</code>
-        <td>None</td>
+        <td>When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say each of the following is? <br /> <br /> Employers firing men who have been accused of sexual harassment or assault before finding out all the facts</td>
         <td>
     <ul>1 Major problem</ul>
 <ul>3 Minor problem</ul>
@@ -817,7 +820,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS1F1c_W41</code>
-        <td>None</td>
+        <td>When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say each of the following is? <br /> <br /> Men getting away with committing sexual harassment or assault</td>
         <td>
     <ul>1 Minor problem</ul>
 <ul>2 Major problem</ul>
@@ -827,7 +830,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS1F1d_W41</code>
-        <td>None</td>
+        <td>When it comes to sexual harassment and sexual assault in the workplace today, how much of a problem, if at all, would you say each of the following is? <br /> <br /> Women not being believed when they claim that they have experienced sexual harassment or assault</td>
         <td>
     <ul>1 Minor problem</ul>
 <ul>2 Major problem</ul>
@@ -837,7 +840,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS1NOWRKF2a_W41</code>
-        <td>None</td>
+        <td>On a different subject...<br /> <br /> When it comes to sexual harassment and sexual assault today, how much of a problem, if at all, would you say each of the following is?<br /> <br /> Women claiming they have experienced sexual harassment or assault when it hasn’t actually occurred</td>
         <td>
 <ul>2 Minor problem</ul>
 <ul>3 Major problem</ul>
@@ -847,7 +850,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS1NOWRKF2c_W41</code>
-        <td>None</td>
+        <td>When it comes to sexual harassment and sexual assault today, how much of a problem, if at all, would you say each of the following is?<br /> <br /> Men getting away with committing sexual harassment or assault</td>
         <td>
     <ul>1 Minor problem</ul>
 <ul>2 Major problem</ul>
@@ -857,7 +860,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS1NOWRKF2d_W41</code>
-        <td>None</td>
+        <td>When it comes to sexual harassment and sexual assault today, how much of a problem, if at all, would you say each of the following is?<br /> <br /> Women not being believed when they claim that they have experienced sexual harassment or assault</td>
         <td>
     <ul>1 Minor problem</ul>
 <ul>2 Major problem</ul>
@@ -867,7 +870,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS3F1_W41</code>
-        <td>None</td>
+        <td>Do you think the increased focus on sexual harassment and assault has made it easier or harder for men to know how to interact with women in the workplace, or hasn’t it made much difference?</td>
         <td>
     <ul>1 Has made it harder for men</ul>
 <ul>2 Hasn't made much difference</ul>
@@ -877,7 +880,8 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS3NOWRKF2_W41</code>
-        <td>None</td>
+        <td>Do you think the increased focus on sexual harassment and assault has made it easier or harder for men to know how to interact with women, or hasn’t it made much difference?
+</td>
         <td>
 <ul>1 Hasn't made much difference</ul>
 <ul>2 Has made it harder for men</ul>
@@ -887,7 +891,8 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS4_W41</code>
-        <td>None</td>
+        <td>Now thinking about your own experiences...<br /> <br /> Have you ever personally received unwanted sexual advances or verbal or physical harassment of a sexual nature? This can be in any circumstance, whether or not work-related.
+</td>
         <td>
     <ul>1 No</ul>
 <ul>2 Yes</ul>
@@ -896,7 +901,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>HARASS5_W41</code>
-        <td>None</td>
+        <td>Have you received unwanted sexual advances or verbal or physical harassment of a sexual nature...</td>
         <td>
 <ul>1 Both</ul>
 <ul>2 In a professional or work setting</ul>
@@ -906,7 +911,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ETHNCMAJMOD_W41</code>
-        <td>None</td>
+        <td>According to the U.S. Census Bureau, by the year 2050, a majority of the population will be made up of blacks, Asians, Hispanics, and other racial minorities.<br /> <br /> In terms of its impact on the country, do you think this will be... </td>
         <td>
     <ul>1 A somewhat good thing</ul>
 <ul>2 A somewhat bad thing</ul>
@@ -918,7 +923,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ETHNCMAJ3_W41</code>
-        <td>None</td>
+        <td>Do you think this change in the U.S. population will lead to... </td>
         <td>
     <ul>1 Fewer conflicts between racial and ethnic groups</ul>
 <ul>2 Not much of an impact</ul>
@@ -928,7 +933,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>ETHNCMAJ4_W41</code>
-        <td>None</td>
+        <td>Do you think this change in the U.S. population will... </td>
         <td>
     <ul>1 Strengthen American customs and values</ul>
 <ul>2 Weaken American customs and values</ul>
@@ -938,7 +943,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>AGEMAJ_W41</code>
-        <td>None</td>
+        <td>According to the U.S. Census Bureau, by the year 2050, the number of people in the population who are 65 or older will outnumber people younger than 18. In terms of its impact on the country, do you think this will be... </td>
         <td>
     <ul>1 A somewhat bad thing</ul>
 <ul>2 A somewhat good thing</ul>
@@ -950,7 +955,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>INTRMAR_W41</code>
-        <td>None</td>
+        <td>According to the U.S. Census Bureau, more people of different races are marrying each other these days than in the past. In terms of its impact on the country, do you think this is...</td>
         <td>
     <ul>1 A somewhat good thing</ul>
 <ul>2 A very bad thing</ul>
@@ -962,7 +967,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SSMONEY_W41</code>
-        <td>None</td>
+        <td>Thinking about what the Social Security system will look like when you are ready to retire, do you think there will be enough money to provide benefits to older Americans?</td>
         <td>
     <ul>1 Yes, but at reduced levels</ul>
 <ul>2 Yes, at current levels</ul>
@@ -972,7 +977,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SSCUT_W41</code>
-        <td>None</td>
+        <td>Thinking about the long-term future of Social Security, which statement comes closer to your view, even if neither is exactly right?</td>
         <td>
     <ul>1 Social Security benefits should not be reduced in any way</ul>
 <ul>2 Some reductions in benefits for future retirees will need to be made</ul>
@@ -981,7 +986,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FUTR_ABR_W41</code>
-        <td>None</td>
+        <td>Thinking again about the year 2050, or 30 years from now, do you think abortion will be...</td>
         <td>
     <ul>1 Legal but with some restrictions</ul>
 <ul>2 Legal with no restrictions</ul>
@@ -992,7 +997,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FUTR_DIV_W41</code>
-        <td>None</td>
+        <td>By 2050, do you expect that people who are married will be...</td>
         <td>
     <ul>1 About as likely to get divorced as people are now</ul>
 <ul>2 More likely to get divorced than people are now</ul>
@@ -1002,7 +1007,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FUTR_M_W41</code>
-        <td>None</td>
+        <td>By 2050, do you expect that people will be... </td>
         <td>
     <ul>1 More likely to get married than people are now</ul>
 <ul>2 Less likely to get married than people are now</ul>
@@ -1012,7 +1017,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>FUTR_K_W41</code>
-        <td>None</td>
+        <td>By 2050, do you expect that people will be...</td>
         <td>
     <ul>1 About as likely to have children as people are now</ul>
 <ul>2 Less likely to have children than people are now</ul>
@@ -1022,7 +1027,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SOLVPROBa_W41</code>
-        <td>None</td>
+        <td>In the future, what kind of an impact do you think each of the following will have in solving the biggest problems facing the country? <br /> <br /> Science and technology</td>
         <td>
     <ul>1 A very positive impact</ul>
 <ul>2 A somewhat negative impact</ul>
@@ -1033,7 +1038,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SOLVPROBb_W41</code>
-        <td>None</td>
+        <td>In the future, what kind of an impact do you think each of the following will have in solving the biggest problems facing the country? <br /> <br /> Major corporations</td>
         <td>
     <ul>1 A somewhat positive impact</ul>
 <ul>2 A somewhat negative impact</ul>
@@ -1044,7 +1049,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SOLVPROBc_W41</code>
-        <td>None</td>
+        <td>In the future, what kind of an impact do you think each of the following will have in solving the biggest problems facing the country? <br /> <br /> Religious groups</td>
         <td>
     <ul>1 A somewhat positive impact</ul>
 <ul>2 A somewhat negative impact</ul>
@@ -1055,7 +1060,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SOLVPROBdF1_W41</code>
-        <td>None</td>
+        <td>In the future, what kind of an impact do you think each of the following will have in solving the biggest problems facing the country? <br /> <br /> The government in Washington</td>
         <td>
     <ul>1 A somewhat positive impact</ul>
 <ul>2 A very negative impact</ul>
@@ -1066,7 +1071,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SOLVPROBeF2_W41</code>
-        <td>None</td>
+        <td>In the future, what kind of an impact do you think each of the following will have in solving the biggest problems facing the country? <br /> <br /> State and local government</td>
         <td>
 <ul>1 A somewhat negative impact</ul>
 <ul>2 A very positive impact</ul>
@@ -1077,7 +1082,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SOLVPROBf_W41</code>
-        <td>None</td>
+        <td>In the future, what kind of an impact do you think each of the following will have in solving the biggest problems facing the country? <br /> <br /> The news media</td>
         <td>
     <ul>1 A somewhat negative impact</ul>
 <ul>2 A very negative impact</ul>
@@ -1088,7 +1093,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SOLVPROBg_W41</code>
-        <td>None</td>
+        <td>In the future, what kind of an impact do you think each of the following will have in solving the biggest problems facing the country? <br /> <br /> The military</td>
         <td>
     <ul>1 A somewhat positive impact</ul>
 <ul>2 A very positive impact</ul>
@@ -1099,7 +1104,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SOLVPROBh_W41</code>
-        <td>None</td>
+        <td>In the future, what kind of an impact do you think each of the following will have in solving the biggest problems facing the country? <br /> <br /> Colleges and universities</td>
         <td>
     <ul>1 A somewhat positive impact</ul>
 <ul>2 A very negative impact</ul>
@@ -1110,7 +1115,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
     </tr>
     <tr>
         <td><code>SOLVPROBi_W41</code>
-        <td>None</td>
+        <td>In the future, what kind of an impact do you think each of the following will have in solving the biggest problems facing the country? <br /> <br /> Public K-12 schools</td>
         <td>
     <ul>1 A somewhat positive impact</ul>
 <ul>2 A very positive impact</ul>
