@@ -228,7 +228,7 @@ def create_target_columns(df: pd.DataFrame, target: str) -> pd.DataFrame:
         '''
         if x == 'Very pessimistic':
             # is_pes, pes_val, is_very_pes, is_very_opt
-            return 1, 3, 1, 0, 1
+            return 1, 3, 1, 0
         elif x == 'Somewhat pessimistic':
             # is_pes, pes_val, is_very_pes, is_very_opt
             return 1, 2, 0, 0
@@ -297,6 +297,8 @@ def convert_responses_to_numeric(df: pd.DataFrame, exclude_cols: list) -> (pd.Da
 
 
 def wrangle_data():
+    ''' Wrangles data and returns df, revert_key, and replace_key
+    '''
     # Get origin data from the folder
     df = get_atp_w41_spss_data()
 
