@@ -109,7 +109,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 ## DataFrame Dictionary
 
 <table>
-    <th>Variable</th><th>Name</th><th>Description</th>
+    <th>Variable</th><th>Description</th><th>Responses</th>
     <tr>
         <td><code>NEW_Device_Type_W41</code>
         <td>Type of device</td>
@@ -1413,6 +1413,135 @@ RESPONDENTS]</td>
 > - 
 > - 
 
+<a name='new_data_dict'></a>
+## New Data Dictionary
+| Original_Column_Name             |        | New_Column_Name                                             |
+|:---------------------------------|:-------|:------------------------------------------------------------|
+| <code>FTRWORRYa_W41</code>       | &rarr; | <code>worry_economy</code>                                  |
+| <code>FTRWORRYb_W41</code>       | &rarr; | <code>worry_public_schools</code>                           |
+| <code>FTRWORRYc_W41</code>       | &rarr; | <code>worry_government</code>                               |
+| <code>FTRWORRYd_W41</code>       | &rarr; | <code>worry_leaders</code>                                  |
+| <code>FTRWORRYe_W41</code>       | &rarr; | <code>worry_morals</code>                                   |
+| <code>FTRWORRYf_W41</code>       | &rarr; | <code>worry_climate</code>                                  |
+| <code>ELDCARE_W41eldcare</code>  | &rarr; | <code>elder_care</code>                                     |
+| <code>ELDFINANCEF1_W41</code>    | &rarr; | <code>elder_finance_1</code>                                |
+| <code>ELDFINANCEF2_W41</code>    | &rarr; | <code>elder_finance_2</code>                                |
+| <code>GOVPRIOa_W41</code>        | &rarr; | <code>priority_debt</code>                                  |
+| <code>GOVPRIOb_W41</code>        | &rarr; | <code>priority_education</code>                             |
+| <code>GOVPRIOc_W41</code>        | &rarr; | <code>priority_healthcare</code>                            |
+| <code>GOVPRIOd_W41</code>        | &rarr; | <code>priority_science</code>                               |
+| <code>GOVPRIOe_W41</code>        | &rarr; | <code>priority_inequality</code>                            |
+| <code>GOVPRIOfF1_W41</code>      | &rarr; | <code>priority_reduce_military</code>                       |
+| <code>GOVPRIOgF1_W41</code>      | &rarr; | <code>priority_undocumented_immigration</code>              |
+| <code>GOVPRIOhF1_W41</code>      | &rarr; | <code>priority_increase_social_security</code>              |
+| <code>GOVPRIOjF1_W41</code>      | &rarr; | <code>priority_avoid_tax_increase</code>                    |
+| <code>GOVPRIOkF2_W41</code>      | &rarr; | <code>priority_increase_military</code>                     |
+| <code>GOVPRIOlF2_W41</code>      | &rarr; | <code>priority_more_immigration</code>                      |
+| <code>GOVPRIOnF2_W41</code>      | &rarr; | <code>priority_reducing_spending_infrastructure</code>      |
+| <code>GOVPRIOoF2_W41</code>      | &rarr; | <code>priority_climate</code>                               |
+| <code>SOLVPROBa_W41</code>       | &rarr; | <code>sci_tech</code>                                       |
+| <code>SOLVPROBb_W41</code>       | &rarr; | <code>major_corps</code>                                    |
+| <code>SOLVPROBc_W41</code>       | &rarr; | <code>rel_groups</code>                                     |
+| <code>SOLVPROBdF1_W41</code>     | &rarr; | <code>gov_in_wash</code>                                    |
+| <code>SOLVPROBeF2_W41</code>     | &rarr; | <code>state_local</code>                                    |
+| <code>SOLVPROBf_W41</code>       | &rarr; | <code>media</code>                                          |
+| <code>SOLVPROBg_W41</code>       | &rarr; | <code>military</code>                                       |
+| <code>SOLVPROBh_W41</code>       | &rarr; | <code>college_uni</code>                                    |
+| <code>SOLVPROBi_W41</code>       | &rarr; | <code>schools</code>                                        |
+| <code>HARASS1F1a_W41</code>      | &rarr; | <code>harass_false_f1</code>                                |
+| <code>HARASS1F1b_W41</code>      | &rarr; | <code>harass_fired_f1</code>                                |
+| <code>HARASS1F1c_W41</code>      | &rarr; | <code>harass_unpunished_f1</code>                           |
+| <code>HARASS1F1d_W41</code>      | &rarr; | <code>harass_unbelieved_f1</code>                           |
+| <code>HARASS1NOWRKF2a_W41</code> | &rarr; | <code>harass_false_f2</code>                                |
+| <code>HARASS1NOWRKF2c_W41</code> | &rarr; | <code>harass_unpunished_f2</code>                           |
+| <code>HARASS1NOWRKF2d_W41</code> | &rarr; | <code>harass_unbelieved_f2</code>                           |
+| <code>HARASS3F1_W41</code>       | &rarr; | <code>harass_interactions_f1</code>                         |
+| <code>HARASS3NOWRKF2_W41</code>  | &rarr; | <code>harass_interactions_f2</code>                         |
+| <code>HARASS4_W41</code>         | &rarr; | <code>harass_personal_exp</code>                            |
+| <code>HARASS5_W41</code>         | &rarr; | <code>harass_sexual_personal_exp</code>                     |
+| <code>GNATPROB_W41</code>        | &rarr; | <code>worries_federal_government</code>                     |
+| <code>WRKTRN1F1_W41</code>       | &rarr; | <code>most_responsible_for_workers_f1</code>                |
+| <code>WRKTRN2F1_W41</code>       | &rarr; | <code>second_most_responsible_for_workers_f1</code>         |
+| <code>WRKTRN2F2_W41</code>       | &rarr; | <code>second_most_responsible_for_workers_f2</code>         |
+| <code>JOBSECURITY_W41</code>     | &rarr; | <code>job_security</code>                                   |
+| <code>JOBBENEFITS_W41</code>     | &rarr; | <code>job_benefits</code>                                   |
+| <code>AUTOWKPLC_W41</code>       | &rarr; | <code>automation_good_or_bad</code>                         |
+| <code>ROBWRK_W41</code>          | &rarr; | <code>replacement_by_robots_likelihood</code>               |
+| <code>ROBWRK2_W41</code>         | &rarr; | <code>replacement_by_robots_good_or_bad</code>              |
+| <code>AUTOLKLY_W41</code>        | &rarr; | <code>likelihood_my_job_replaced_by_robots</code>           |
+| <code>ROBIMPACTa_W41</code>      | &rarr; | <code>robot_replacement_increase_inequality</code>          |
+| <code>ROBIMPACTb_W41</code>      | &rarr; | <code>robot_replacement_means_better_jobs_for_humans</code> |
+| <code>LEGALIMG_W41</code>        | &rarr; | <code>legal_immigration_levels</code>                       |
+| <code>FUTRCLASSa_W41</code>      | &rarr; | <code>share_americans_in_upper_class</code>                 |
+| <code>FUTRCLASSb_W41</code>      | &rarr; | <code>share_americans_in_middle_class</code>                |
+| <code>FUTRCLASSc_W41</code>      | &rarr; | <code>share_americans_in_lower_class</code>                 |
+| <code>F_EDUCCAT</code>           | &rarr; | <code>highest_education_three_categories</code>             |
+| <code>F_EDUCCAT2</code>          | &rarr; | <code>highest_education_six_categories</code>               |
+| <code>F_HISP</code>              | &rarr; | <code>hispanic_or_latino</code>                             |
+| <code>F_RACECMB</code>           | &rarr; | <code>race</code>                                           |
+| <code>F_RACETHN</code>           | &rarr; | <code>race_and_ethnicity</code>                             |
+| <code>F_NATIVITY</code>          | &rarr; | <code>birthplace</code>                                     |
+| <code>F_CITIZEN</code>           | &rarr; | <code>us_citizen</code>                                     |
+| <code>F_MARITAL</code>           | &rarr; | <code>marital_status</code>                                 |
+| <code>F_RELIG</code>             | &rarr; | <code>religion</code>                                       |
+| <code>F_BORN</code>              | &rarr; | <code>evangelical_christian</code>                          |
+| <code>F_ATTEND</code>            | &rarr; | <code>church_attendance</code>                              |
+| <code>F_PARTY_FINAL</code>       | &rarr; | <code>political_party_identity</code>                       |
+| <code>F_PARTYLN_FINAL</code>     | &rarr; | <code>political_party_lean</code>                           |
+| <code>F_PARTYSUM_FINAL</code>    | &rarr; | <code>summary_of_political_party_data</code>                |
+| <code>F_INCOME</code>            | &rarr; | <code>family_income_nine_categories</code>                  |
+| <code>F_INCOME_RECODE</code>     | &rarr; | <code>family_income_three_categories</code>                 |
+| <code>F_REG</code>               | &rarr; | <code>registered_to_vote</code>                             |
+| <code>F_IDEO</code>              | &rarr; | <code>political_views</code>                                |
+| <code>F_INTUSER</code>           | &rarr; | <code>internet_access</code>                                |
+| <code>F_VOLSUM</code>            | &rarr; | <code>volunteer</code>                                      |
+| <code>NEW_Device_Type_W41</code> | &rarr; | <code>device_type</code>                                    |
+| <code>F_LANGUAGE</code>          | &rarr; | <code>language</code>                                       |
+| <code>FORM_W41</code>            | &rarr; | <code>form</code>                                           |
+| <code>OPTIMIST_W41</code>        | &rarr; | <code>attitude</code>                                       |
+| <code>AVGFAM_W41</code>          | &rarr; | <code>avg_family</code>                                     |
+| <code>HAPPENa_W41</code>         | &rarr; | <code>happen_general</code>                                 |
+| <code>HAPPENb_W41</code>         | &rarr; | <code>happen_health</code>                                  |
+| <code>HAPPENc_W41</code>         | &rarr; | <code>happen_race</code>                                    |
+| <code>HAPPENd_W41</code>         | &rarr; | <code>happen_usa</code>                                     |
+| <code>HAPPENe_W41</code>         | &rarr; | <code>happen_wealthgap</code>                               |
+| <code>HAPPENf_W41</code>         | &rarr; | <code>happen_pub_ed</code>                                  |
+| <code>HAPPENg_W41</code>         | &rarr; | <code>happen_rel</code>                                     |
+| <code>HAPPENhF1_W41</code>       | &rarr; | <code>happen_65up_f1</code>                                 |
+| <code>HAPPENiF2_W41</code>       | &rarr; | <code>happen_child_f2</code>                                |
+| <code>HAPPENj_W41</code>         | &rarr; | <code>happen_politics</code>                                |
+| <code>HAPPEN2a_W41</code>        | &rarr; | <code>happen_terroist</code>                                |
+| <code>HAPPEN2b_W41</code>        | &rarr; | <code>happen_energy</code>                                  |
+| <code>HAPPEN2c_W41</code>        | &rarr; | <code>happen_alzheimers</code>                              |
+| <code>HAPPEN2d_W41</code>        | &rarr; | <code>happen_china</code>                                   |
+| <code>HAPPEN2e_W41</code>        | &rarr; | <code>happen_female_pres</code>                             |
+| <code>HAPPEN2f_W41</code>        | &rarr; | <code>happen_hispanic_pres</code>                           |
+| <code>HAPPEN2g_W41</code>        | &rarr; | <code>happen_70yr_labor</code>                              |
+| <code>HAPPEN2h_W41</code>        | &rarr; | <code>happen_anti_semitism</code>                           |
+| <code>NATDEBT_W41</code>         | &rarr; | <code>debt_30yrs</code>                                     |
+| <code>ENVC_W41</code>            | &rarr; | <code>envir_50yrs</code>                                    |
+| <code>POPPROB_W41</code>         | &rarr; | <code>pop_growth</code>                                     |
+| <code>ELDCARE_W41</code>         | &rarr; | <code>elder_care</code>                                     |
+| <code>GOVPRIOiF1_W41</code>      | &rarr; | <code>priority_infra_f1</code>                              |
+| <code>GOVPRIOmF2_W41</code>      | &rarr; | <code>priority_pub_hcare_f2</code>                          |
+| <code>WRKTRN1F2_W41</code>       | &rarr; | <code>job_skills_f2</code>                                  |
+| <code>ETHNCMAJMOD_W41</code>     | &rarr; | <code>ethnic_impact1</code>                                 |
+| <code>ETHNCMAJ3_W41</code>       | &rarr; | <code>ethnic_conflict</code>                                |
+| <code>ETHNCMAJ4_W41</code>       | &rarr; | <code>ethnic_customs</code>                                 |
+| <code>AGEMAJ_W41</code>          | &rarr; | <code>age_impact</code>                                     |
+| <code>INTRMAR_W41</code>         | &rarr; | <code>inter_mar</code>                                      |
+| <code>SSMONEY_W41</code>         | &rarr; | <code>ss_money</code>                                       |
+| <code>SSCUT_W41</code>           | &rarr; | <code>ss_cut</code>                                         |
+| <code>FUTR_ABR_W41</code>        | &rarr; | <code>fut_abortion</code>                                   |
+| <code>FUTR_DIV_W41</code>        | &rarr; | <code>fut_divorce</code>                                    |
+| <code>FUTR_M_W41</code>          | &rarr; | <code>fut_marriage</code>                                   |
+| <code>FUTR_K_W41</code>          | &rarr; | <code>fut_kids</code>                                       |
+| <code>F_METRO</code>             | &rarr; | <code>metro</code>                                          |
+| <code>F_CREGION</code>           | &rarr; | <code>census_region</code>                                  |
+| <code>F_AGECAT</code>            | &rarr; | <code>age</code>                                            |
+| <code>F_SEX</code>               | &rarr; | <code>sex</code>                                            |
+| <code>QKEY</code>                | &rarr; | <code>qkey</code>                                           |
+| <code>WEIGHT_W41</code>          | &rarr; | <code>weight</code>                                         |
 
 <a name='prepare_takeaways'></a>
 ## Prepare Takeaways
