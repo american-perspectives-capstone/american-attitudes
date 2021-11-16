@@ -109,7 +109,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 ## DataFrame Dictionary
 
 <table>
-    <th>Variable</th><th>Name</th><th>Description</th>
+    <th>Variable</th><th>Description</th><th>Responses</th>
     <tr>
         <td><code>NEW_Device_Type_W41</code>
         <td>Type of device</td>
