@@ -64,9 +64,9 @@
 
 <a name='exe_sum'></a>
 # Executive Summary
-> - 
-> - 
-> - 
+> - Our team acquired Pew Research Panel survey data and utilized this data to explore the drivers of pessimism in American Prospective Attitudes.
+> - Being able to understand what most likely drives pessimistic or optimistic thinking about the future will help business leaders clarify strategies for moving foward.
+> - This project will also help guide expectations of future sucess in the customers these business leaders serve, in addition to the products offered, investment, marketing and sales, and other aspects throughout their organization. 
 
 <a name='goals'></a>
 ## Goals
@@ -83,9 +83,8 @@
 # Acquire Data
 ✓ _Plan_ ➜ 🟢 **Acquire** ➜ ☐ _Prepare_ ➜ ☐ _Explore_ ➜ ☐ _Model_ ➜ ☐ _Deliver_
 
-> - 
-> - 
-> - 
+> - The data is acquired from Pew Research Panel survey data that asks various demographic questions in conjunction with the survey questions themselves.
+> - The questions all ask for categorical responses from the individuals and the questions pertain to various topics of American life, such as politics and economics.
 
 <a name="working_with_data"></a>
 ## Working with American Trends Panel Data 
@@ -583,10 +582,12 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 <a name='acquire_takeaways'></a>
 ## Takeaways from Acquire:
-> - 
-> - 
-> - 
-> - 
+- We acquired a DataFrame from Kaggle which has 2524 and 124 columns.
+- Each row represents an individual American adult and his or her responses to the survey questions.
+- Of our 124 columns, 2 are continuous and numeric: `qkey` and `weight`. The remaining 122 columns are categorical features. 
+    - The `weight` column indicates the corresponding survey weight of each respondent in the sample. The survey weight indicates how representative an observation is of the total population.
+- The survey results provide us with information regarding each respondents' views about the future of the United States. In addition,the acquired data contains demographic data for each respondent, including gender, race, income level, and political affiliation.
+
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
 <hr style="border-top: 10px groove tan; margin-top: 1px; margin-bottom: 1px"></hr>
