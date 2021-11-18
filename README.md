@@ -1,4 +1,8 @@
-<center><h1>American Attitude Topic Sentiment Prediction</center>
+<center><h1>Is America’s Glass Half-Empty? Discovering drivers of America’s prospective thinking.</center>
+
+#### Authors: <a href="https://github.com/Alexia-Garces">Alexia Garces</a>, <a href="https://github.com/Brooke-Holyoak">Brooke Holyoak</a>, <a href="https://github.com/CharlesAtchison">Charles Atchison</a>, <a href="https://github.com/Jason-Tellez">Jason Tellez</a>, <a href="https://github.com/malachi-hale">Malachi Hale</a>
+    
+**Date**: November 14, 2021
 
 <a name ='toc'></a>
 # Table of Contents 
@@ -616,10 +620,11 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 # Explore Data
 ✓ _Plan_ ➜ ✓ _Acquire_ ➜ ✓ _Prepare_ ➜ 🟢 **Explore** ➜ ☐ _Model_ ➜ ☐ _Deliver_
 
-> - 
-> - 
-> - 
-> - 
+> - We dropped columns that were too closely related to the derivative of our target column (`is_pes`):
+> - Those columns ended up being `avg_family`, `attitude`, `pes_val`, `is_very_pes` and `is_very_opt`.
+> - We also dropped `qkey` since it is only an id value and will not provide any information since each is a unique value.
+> - We split our train, validate, and test columns to feature dataframes and target series.
+
 
 |Over 50|Under 50|
 |:-:|:-:|
