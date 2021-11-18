@@ -697,12 +697,12 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 > - We chose the most common result of the target column as our baseline with an accuracy of 55.75%.
 > - We ran over 200 variations of Decision Tree, Random Forest, K-Nearest Neighbor, and other models
 > - Overall, the model with the best performances was the Random Forest
-    - `max_depth` = 4
-    - `min_samples_leaf` = 6
+> - `max_depth` = 4
+> - `min_samples_leaf` = 6
 > - Accuracy:
-    - `train` (In-sample) = 79.05%
-    - `validate` (Out-of-sample) = 78.48%
-    - `test` (Out-of-sample) = 75.94%
+> - `train` (In-sample) = 79.05%
+> - `validate` (Out-of-sample) = 78.48%
+> - `test` (Out-of-sample) = 75.94%
 
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
