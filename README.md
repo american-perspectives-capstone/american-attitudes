@@ -468,7 +468,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
         <td style="text-align:right">&rarr;</td>
         <td style="text-align:left"><code>highest_education_six_categories</code></td>
         <td style="text-align:center">Six-way category coded from self-reported educational attainment.</td>
-        <td><ul>5 Less than high school (EDUC_ACS=1,2,3,4,5)</ul><ul>2 High school graduate (EDUC_ACS =6,7)</ul><ul>6 Some college, no degree (EDUC_ACS=8,9)</ul><ul>3 Associate's degree (EDUC_ACS=10)</ul><ul>4 College graduate/some post grad (EDUC_ACS =11)</ul><ul>1 Postgraduate (EDUC_ACS =12,13,14)</ul><ul>7 Don't know/Refused (EDUC_ACS =Refused)</ul></td>
+        <td><ul>1 Less than high school (EDUC_ACS=1,2,3,4,5)</ul><ul>2 High school graduate (EDUC_ACS =6,7)</ul><ul>3 Some college, no degree (EDUC_ACS=8,9)</ul><ul>4 Associate's degree (EDUC_ACS=10)</ul><ul>5 College graduate/some post grad (EDUC_ACS =11)</ul><ul>6 Postgraduate (EDUC_ACS =12,13,14)</ul><ul>7 Don't know/Refused (EDUC_ACS =Refused)</ul></td>
     </tr><tr>
         <td style="text-align:left"><code>F_HISP</code></td>
         <td style="text-align:right">&rarr;</td>
@@ -621,6 +621,10 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 > - 
 > - 
 
+|Over 50|Under 50|
+|:-:|:-:|
+|![Over 50](images/over_50replacement_by_robots_good_or_bad_bar_plot.png)|![Under 50](images/over_50replacement_by_robots_likelihood_bar_plot.png)|
+
 <a name='correlations'></a>
 ## Correlations
 
@@ -672,8 +676,10 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 # Modeling & Evaluation
 ✓ _Plan_ ➜ ✓ _Acquire_ ➜ ✓ _Prepare_ ➜ ✓ _Explore_ ➜ 🟢 **Model** ➜ ☐ _Deliver_
 
-> - 
-> - 
+> - We dropped columns that were too closely related to the derivative of our target column (`is_pes`):
+> - Those columns ended up being `avg_family`, `attitude`, `pes_val`, `is_very_pes` and `is_very_opt`.
+> - We also dropped `qkey` since it is only an id value and will not provide any information since each is a unique value.
+> - We split our train, validate, and test columns to feature dataframes and target series.
 
 <a name='cross_validation'></a>
 ## Cross-Validation
