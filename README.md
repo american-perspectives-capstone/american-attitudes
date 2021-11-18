@@ -582,7 +582,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 <a name='acquire_takeaways'></a>
 ## Takeaways from Acquire:
-- We acquired a DataFrame from Kaggle which has 2524 and 124 columns.
+- We acquired a DataFrame from a Pew Research Panel survey which contained 2524 observations and 124 columns.
 - Each row represents an individual American adult and his or her responses to the survey questions.
 - Of our 124 columns, 2 are continuous and numeric: `qkey` and `weight`. The remaining 122 columns are categorical features. 
     - The `weight` column indicates the corresponding survey weight of each respondent in the sample. The survey weight indicates how representative an observation is of the total population.
