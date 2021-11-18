@@ -764,7 +764,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 > - Some other main drivers are job benefits and job security, race relations, standards of living, healthcare, and the country's world status are also very important to adults
 > - We chose the most common result of the target column as our baseline with an accuracy of 55.75%.
 > - We ran over 200 variations of Decision Tree, Random Forest, K-Nearest Neighbor, and other models
-> - Overall, the model with the best performances was the Random Forest
+> - Overall, the model with the best performances was the Random Forest with 
 >    - `max_depth` = 8
 >    - `min_samples_leaf` = 3
 > - Accuracy:
