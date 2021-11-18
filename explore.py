@@ -59,6 +59,25 @@ class Attitudes_explore():
         # Make test datasets
         self.X_test = test.drop(columns=[target])
         self.y_test = test[target]
+
+        #Make dummies 
+        df_dummies = pd.get_dummies(df, drop_first = True)
+        
+        #Split the dummies dataframe
+        train_dummies, validate_dummies, test_dummies = train_validate_test_split(df_dummies, target)
+
+        # Make train_dummies datasets
+        self.X_train_dummies = train_dummies.drop(columns=[target])
+        self.y_train_dummies = train_dummies[target]
+        
+        # Make validate_dummies datasets
+        self.X_validate_dummies = validate_dummies.drop(columns=[target])
+        self.y_validate_dummies = validate_dummies[target]
+        
+        # Make test_dummies datasets
+        self.X_test_dummies = test_dummies.drop(columns=[target])
+        self.y_test_dummies = test_dummies[target]
+        
         
         
         
