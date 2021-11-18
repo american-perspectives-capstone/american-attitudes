@@ -691,10 +691,18 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 <a name='modeling_takeaways'></a>
 ## Modeling Takeaways
-> - 
-> - 
-> - 
-> - 
+
+> - Big drivers of pessimism are public education and economics
+> - Some other main drivers are job benefits and job security, race relations, standards of living, healthcare, and the country's world status are also very important to adults
+> - We chose the most common result of the target column as our baseline with an accuracy of 55.75%.
+> - We ran over 200 variations of Decision Tree, Random Forest, K-Nearest Neighbor, and other models
+> - Overall, the model with the best performances was the Random Forest
+    - `max_depth` = 4
+    - `min_samples_leaf` = 6
+> - Accuracy:
+    - `train` (In-sample) = 79.05%
+    - `validate` (Out-of-sample) = 78.48%
+    - `test` (Out-of-sample) = 75.94%
 
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
@@ -723,7 +731,6 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 > - Any hypothesis, insight and or result within this project in no way implies or suggests as attributing a particular policy or lobbying objective or opinion to the Center, and
 > - “The opinions expressed herein, including any implications for policy, are those of the author and not of Pew Research Center.”
 > - More information on these user agreements can be found at <a href="https://www.pewresearch.org/about/terms-and-conditions/">Pew Research</a>.
-
 
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
