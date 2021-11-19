@@ -1,6 +1,6 @@
 <center><h1>Is America’s Glass Half-Empty? Discovering drivers of America’s prospective thinking.</center>
 
-#### Authors: <a href="https://github.com/Alexia-Garces">Alexia Garces</a>, <a href="https://github.com/Brooke-Holyoak">Brooke Holyoak</a>, <a href="https://github.com/CharlesAtchison">Charles Atchison</a>, <a href="https://github.com/Jason-Tellez">Jason Tellez</a>, <a href="https://github.com/malachi-hale">Malachi Hale</a>
+#### Authors: <a href="https://github.com/Alexia-Garces" target="_blank">Alexia Garces</a>, <a href="https://github.com/Brooke-Holyoak" target="_blank">Brooke Holyoak</a>, <a href="https://github.com/CharlesAtchison" target="_blank">Charles Atchison</a>, <a href="https://github.com/Jason-Tellez" target="_blank">Jason Tellez</a>, <a href="https://github.com/malachi-hale" target="_blank">Malachi Hale</a>
     
 **Date**: November 14, 2021
 
@@ -111,7 +111,7 @@
  > American Trends Panel datasets contain single-punch or multi-punch variables. For questions in a 'Check all that apply' format, each option has its own variable indicating whether a respondent selected the item or not. For some datasets there is an additional variable indicating whether a respondent did not select any of the options. Open-end string variables are not included in ATP datasets. Coded responses to open-end questions are included when available.
 
 ### Dataset Format
-> The dataset is formatted as a .sav file and can be read with the SPSS software program. The dataset can also be read with the R programming language, using the `foreign` package. R is a free, open-source program for statistical analysis that can be downloaded <a href="https://cran.r-project.org/">here</a>. It can also be used to export data in .csv format for use with other software programs.
+> The dataset is formatted as a .sav file and can be read with the SPSS software program. The dataset can also be read with the R programming language, using the `foreign` package. R is a free, open-source program for statistical analysis that can be downloaded <a href="https://cran.r-project.org/" target="_blank">here</a>. It can also be used to export data in .csv format for use with other software programs.
 
 > **NOTE**: Using other tools to directly convert the .sav file to another format such as .csv may ERASE value
 labels. For this reason, it is highly recommended that you use either SPSS or R to read the file directly.
@@ -817,8 +817,8 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 > - The source of the data with express reference to the center in accordance with the following citation: “Pew Research Center’s American Trends Panel”
 > - Any hypothesis, insight and or result within this project in no way implies or suggests as attributing a particular policy or lobbying objective or opinion to the Center, and
 > - “The opinions expressed herein, including any implications for policy, are those of the author and not of Pew Research Center.”
-> - Information on The American Trends Panel (ATP) can be found at <a href="https://www.pewresearch.org/our-methods/u-s-surveys/the-american-trends-panel/">The American Trends Panel</a>
-> - More information on these user agreements can be found at <a href="https://www.pewresearch.org/about/terms-and-conditions/">Pew Research</a>.
+> - Information on The American Trends Panel (ATP) can be found at <a href="https://www.pewresearch.org/our-methods/u-s-surveys/the-american-trends-panel/" target="_blank">The American Trends Panel</a>
+> - More information on these user agreements can be found at <a href="https://www.pewresearch.org/about/terms-and-conditions/" target="_blank">Pew Research</a>.
 
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
