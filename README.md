@@ -1,6 +1,6 @@
 <center><h1>Is America’s Glass Half-Empty? Discovering drivers of America’s prospective thinking.</center>
 
-#### Authors: <a href="https://github.com/Alexia-Garces">Alexia Garces</a>, <a href="https://github.com/Brooke-Holyoak">Brooke Holyoak</a>, <a href="https://github.com/CharlesAtchison">Charles Atchison</a>, <a href="https://github.com/Jason-Tellez">Jason Tellez</a>, <a href="https://github.com/malachi-hale">Malachi Hale</a>
+#### Authors: <a href="https://github.com/Alexia-Garces" target="_blank">Alexia Garces</a>, <a href="https://github.com/Brooke-Holyoak" target="_blank">Brooke Holyoak</a>, <a href="https://github.com/CharlesAtchison" target="_blank">Charles Atchison</a>, <a href="https://github.com/Jason-Tellez" target="_blank">Jason Tellez</a>, <a href="https://github.com/malachi-hale" target="_blank">Malachi Hale</a>
     
 **Date**: November 14, 2021
 
@@ -50,7 +50,7 @@
 
 <a name='project_objectives'></a>
 ## Project Objectives 
-> - Utilize American Trends Panel Datasets (accessable <a href="https://www.kaggle.com/shankanater/american-trends-panel-pewresearch/download">here</a>), with Natural Language Processing techniques to assess and attempt to predict sentiment toward particular topics.
+> - Utilize American Trends Panel Datasets (downloadable <a href="https://www.kaggle.com/shankanater/american-trends-panel-pewresearch/download">here</a>), with statistical modeling techniques to assess and attempt to predict sentiment toward particular topics.
 > - This will culminate into a well-built well-documented jupyter notebook that contains our process and derivation of these predictions.
 > - Modules will be created that abstract minutiae aspects of the data pipeline process.
 
@@ -86,7 +86,7 @@
 
 <a name='findings'></a>
 ## Findings
-> - 
+> - Standard demographic features like age, sex, and income are not drivers of overall pessimism. However, features like what will happen to the average family's standard of living, cost of healthcare, and the future of the public education system are highly correlated to overall pessimism.
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
 <hr style="border-top: 10px groove tan; margin-top: 1px; margin-bottom: 1px"></hr>
@@ -111,7 +111,7 @@
  > American Trends Panel datasets contain single-punch or multi-punch variables. For questions in a 'Check all that apply' format, each option has its own variable indicating whether a respondent selected the item or not. For some datasets there is an additional variable indicating whether a respondent did not select any of the options. Open-end string variables are not included in ATP datasets. Coded responses to open-end questions are included when available.
 
 ### Dataset Format
-> The dataset is formatted as a .sav file and can be read with the SPSS software program. The dataset can also be read with the R programming language, using the `foreign` package. R is a free, open-source program for statistical analysis that can be downloaded <a href="https://cran.r-project.org/">here</a>. It can also be used to export data in .csv format for use with other software programs.
+> The dataset is formatted as a .sav file and can be read with the SPSS software program. The dataset can also be read with the R programming language, using the `foreign` package. R is a free, open-source program for statistical analysis that can be downloaded <a href="https://cran.r-project.org/" target="_blank">here</a>. It can also be used to export data in .csv format for use with other software programs.
 
 > **NOTE**: Using other tools to directly convert the .sav file to another format such as .csv may ERASE value
 labels. For this reason, it is highly recommended that you use either SPSS or R to read the file directly.
@@ -645,9 +645,6 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 > - Stratifying on `is_pes`, we split our data into `train`, `validate`, and `test`, datasets of lengths 1408, 604, and 503, respectively. 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
 <hr style="border-top: 10px groove tan; margin-top: 1px; margin-bottom: 1px"></hr>
-                     
-<div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
-<hr style="border-top: 10px groove tan; margin-top: 1px; margin-bottom: 1px"></hr>
 
 
 <a name='explore'></a>
@@ -659,52 +656,69 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 > - We also dropped `qkey` since it is only an id value and will not provide any information since each is a unique value.
 > - We split our train, validate, and test columns to feature dataframes and target series.
 
+### Statistical Test Results
 
-|Over 50|Under 50|
-|:-:|:-:|
-|![Over 50](images/over_50replacement_by_robots_good_or_bad_bar_plot.png)|![Under 50](images/over_50replacement_by_robots_likelihood_bar_plot.png)|
+|                 |    chi2 |       p_val |   deg_free | expected_freq                 |
+|:----------------|--------:|------------:|-----------:|:------------------------------|
+| `happen_general`  | 309.847 | 5.21955e-68 |          2 | [[ 65.23082386  51.76917614]  |
+|                 |         |             |            |  [299.39275568 237.60724432]  |
+|                 |         |             |            |  [420.37642045 333.62357955]] |
+| `happen_pub_ed`   | 236.57  | 4.26122e-52 |          2 | [[ 75.26633523  59.73366477]  |
+|                 |         |             |            |  [411.45596591 326.54403409]  |
+|                 |         |             |            |  [298.27769886 236.72230114]] |
+| `happen_child_f2` | 180.023 | 8.72154e-39 |          3 | [[152.76278409 121.23721591]  |
+|                 |         |             |            |  [210.18821023 166.81178977]  |
+|                 |         |             |            |  [ 34.56676136  27.43323864]  |
+|                 |         |             |            |  [387.48224432 307.51775568]] |
+| `happen_race`     | 157.809 | 5.39807e-35 |          2 | [[317.79119318 252.20880682]  |
+|                 |         |             |            |  [398.07528409 315.92471591]  |
+|                 |         |             |            |  [ 69.13352273  54.86647727]] |
+| `happen_health`   | 145.05  | 3.18329e-32 |          2 | [[447.6953125  355.3046875 ]  |
+|                 |         |             |            |  [265.94105114 211.05894886]  |
+|                 |         |             |            |  [ 71.36363636  56.63636364]] |
 
-<a name='correlations'></a>
-## Correlations
 
+### Males vs Females Pessimisim
 
-### Correlation Heatmap
+![Male_vs_female_pessimisim_plot](images/fem_male_pessimism_percentage.png)
 
+### Family Income Pessimisim
 
-### Correlations Table
+![family_income_pessimism_plot](images/percent_is_pes_by_family_income.png)
 
+### Educational Attainment Pessimisim
 
-<a name='pairplot'></a>
-## Pair Plot
+![educational_attainment_pessimisim_plot](images/percent_is_pes_by_highest_education_six_categories.png)
+
 
 <a name='hypotheses'></a>
 ## Hypotheses & Testing
 
 ### Hypothesis 1
-> - H<sub>0</sub>: 
-> - H<sub>a</sub>: 
+> - H<sub>0</sub>: Is sex independent of a pessimsitic future outlook?
+> - H<sub>a</sub>: Sex is dependent on pessimist future outlook.
 > - &#x0251;: 0.05
 
 #### Hypothesis 1 Takeaways 
-> - 
-> - 
+> - The number of females and males who are overall pessimistic are about the same.
+> - The p-value is above 0.05, so we accept the null hypothesis.
 
 ### Hypothesis 2
-> - H<sub>0</sub>: 
-> - H<sub>a</sub>: 
+> - H<sub>0</sub>: Is income independent of a pessimistic future outlook?
+> - H<sub>a</sub>: Income is dependent on pessimistic future outlook.
 > - &#x0251; = 0.05
 
 #### Hypothesis 2 Takeaways 
-> - 
-> - 
+> - While it appears that people who are middle income earners are more pessimistic, there is no significance for overall income related to overall pessimism.
+> - The p-value is above 0.5, so we accept the null hypothesis.
 
 <a name='explore_takeaways'></a>
 ## Explore Takeaways
 
-> - 
-> - 
-> - 
-> - 
+> - There a small differences in future outlook when considering sex, income and education.
+> - While the small differences exist, they do not appear to be significant.
+> - Through chi-squared testing, we verify that there is not a significant relationship between theses features and our target.
+> - Even though they are not necessarily drivers of overall future outlook, the findings are still helpful in isolation.
 
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
@@ -745,6 +759,8 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 ## Feature Importance
 > Of the models mentioned above, our best performing model was the Random Forest Classifier with depth 8, min samples leaf 3. We utilized this model to perform feature importance on the features in our dataset. We found that public education and US economics are major drivers of pessimism. 
 
+![feature_importance_plot](images/feature_importance.png)
+
 <a name='top'></a>
 ## Modeling with just the top features
 > Feature importances gave us a ranked order of the features by importance in predicting pessimism. Using these ordered features, we ran a series of Random Forest Classifier models using just the top thirty most important features and just the forty most important features, using varying parameters. None of these models, however, outperformed the the Random Forest Classifier with depth 8, min samples leaf 3 using all features. 
@@ -752,6 +768,8 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 <a name='model_comparison'></a>
 ## Model Comparison
 > Our best performing model was the Random Forest Classifier which included all features and had min samples leaf 3 and a depth of 8. This model had an accuracy of 80.46% on the validate dataset.
+
+![model_comparison](images/model_comparison.png)
 
 <a name='out_of_sample'></a>
 ## Out of Sample
@@ -779,13 +797,15 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 # Project Delivery
 ✓ _Plan_ ➜ ✓ _Acquire_ ➜ ✓ _Prepare_ ➜ ✓ _Explore_ ➜ ✓ _Model_ ➜ 🟢 **Deliver**
 
-> - 
-> - 
+> - Currently we are achieving an Out-of-sample accuracy of ~76% on our `test` data and we believe with further feature engineering and hyper-parameter optimization we could achieve a higher accuracy. 
 
 <a name='conclusion_and_next_steps'></a>
+
 ## Conclusion and Next Steps
-> -
-> -
+> - While it appeared that there may have been a significant difference between the genders and their pessimisim, it was not result in this instance. 
+> Additionally, our other potential observation, that there would be a significant difference in the pessimisim reletive to income, it was again not the result in this instance.
+> - The next step is to continue finalizing the work and ensuring our work is throughly documented.
+> - With more time we will continue examining multiple different feature combinations and test for significance from these observations.
 
 <a name='replication'></a>
 ## Project Replication
@@ -797,7 +817,8 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 > - The source of the data with express reference to the center in accordance with the following citation: “Pew Research Center’s American Trends Panel”
 > - Any hypothesis, insight and or result within this project in no way implies or suggests as attributing a particular policy or lobbying objective or opinion to the Center, and
 > - “The opinions expressed herein, including any implications for policy, are those of the author and not of Pew Research Center.”
-> - More information on these user agreements can be found at <a href="https://www.pewresearch.org/about/terms-and-conditions/">Pew Research</a>.
+> - Information on The American Trends Panel (ATP) can be found at <a href="https://www.pewresearch.org/our-methods/u-s-surveys/the-american-trends-panel/" target="_blank">The American Trends Panel</a>
+> - More information on these user agreements can be found at <a href="https://www.pewresearch.org/about/terms-and-conditions/" target="_blank">Pew Research</a>.
 
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
