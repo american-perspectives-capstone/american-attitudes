@@ -161,7 +161,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
         <td style="text-align:left"><code>ELDCARE_W41eldcare</code></td>
         <td style="text-align:right">&rarr;</td>
         <td style="text-align:left"><code>elder_care</code></td>
-        <td style="text-align:center">How worried are you, if at all, about climate change?</td>
+        <td style="text-align:center">Thinking ahead 30 years from now, which do you think is more likely to happen?</td>
         <td><ul>1 LESS prepared financially for retirement than older adults today</ul><ul>2 BETTER prepared financially for retirement than older adults are today</ul><ul>Refused</ul></td>
     </tr><tr>
         <td style="text-align:left"><code>ELDFINANCEF1_W41</code></td>
