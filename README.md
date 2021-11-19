@@ -680,15 +680,15 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 ### Males vs Females Pessimisim
 
-|![Male_vs_female_pessimisim_plot](images/fem_male_pessimism_percentage.png)
+![Male_vs_female_pessimisim_plot](images/fem_male_pessimism_percentage.png)
 
 ### Family Income Pessimisim
 
-|![family_income_pessimism_plot](images/percent_is_pes_by_family_income.png)
+![family_income_pessimism_plot](images/percent_is_pes_by_family_income.png)
 
 ### Educational Attainment Pessimisim
 
-|![educational_attainment_pessimisim_plot](images/percent_is_pes_by_highest_education_six_categories.png)
+![educational_attainment_pessimisim_plot](images/percent_is_pes_by_highest_education_six_categories.png)
 
 
 <a name='hypotheses'></a>
