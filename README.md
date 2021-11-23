@@ -926,7 +926,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 > - We also dropped `qkey` since it is only an id value and will not provide any information since each is a unique value.
 > - We split our train, validate, and test columns to feature dataframes and target series.
 
-### Statistical Test Results
+## Statistical Test Results
 
 |                 |    chi2 |       p_val |   deg_free | expected_freq                 |
 |:----------------|--------:|------------:|-----------:|:------------------------------|
@@ -947,6 +947,9 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 |                 |         |             |            |  [265.94105114 211.05894886]  |
 |                 |         |             |            |  [ 71.36363636  56.63636364]] |
 
+## Univariate Distributions
+
+![univariate_exploration_plots](images/univariate_exploration.jpeg)
 
 ### Males vs Females Pessimisim
 
