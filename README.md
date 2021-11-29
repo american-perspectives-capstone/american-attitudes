@@ -1066,7 +1066,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 <a name='modeling_income_level'></a>
 ## Modeling the Income Level Subsets 
-> We ran Random Forest Classification models on on the subsets for income groups less than \\$30,000, between \\$30,000 and \\$75,000, and more than \\$75,000.
+> We ran Random Forest Classification models on on the subsets for income groups less than \$30,000, between \$30,000 and \$75,000, and more than \$75,000.
 
 | Most Important Issues For Lower Income Level | Most Important Issues for Middle Income Level | Most Important Issues for Upper Income Level |
 |----------------------------------------------|-----------------------------------------------|----------------------------------------------|
