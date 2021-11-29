@@ -36,7 +36,7 @@
     7. [Modeling with just the top features](#top)
     9. [Model Comparison](#model_comparison)
     10. [Out of Sample Testing](#out_of_sample)
-    11. [Modeling the Gender Subsets)(#modeling_gender)
+    11. [Modeling the Gender Subsets](#modeling_gender)
     12. [Modeling the Political Party Subsets](#modeling_politics)
     13. [Modeling the Income Level Subsets](#modeling_income_level)
     14. [Modeling the Education Level Subsets](#modeling_education_level)
