@@ -37,7 +37,10 @@
     9. [Model Comparison](#model_comparison)
     10. [Out of Sample Testing](#out_of_sample)
     11. [Modeling the Gender Subsets)(#modeling_gender)
-    11. [Modeling Takeaways](#modeling_takeaways)
+    12. [Modeling the Political Party Subsets](#modeling_politics)
+    13. [Modeling the Income Level Subsets](#modeling_income_level)
+    14. [Modeling the Education Level Subsets](#modeling_education_level)
+    15. [Modeling Takeaways](#modeling_takeaways)
 7. [Project Delivery](#delivery)
     1. [Conclusion & Next Steps](#conclusion_and_next_steps)
     2. [Project Replication](#replicate)
@@ -1052,6 +1055,30 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 | Most Important Issues For Women | Most Important Issues for Men |
 |---------------------------------|-------------------------------|
 | ![females](images/females.jpeg) | ![males](images/males.jpeg)   |
+
+<a name='modeling_politics'></a>
+## Modeling the Political Party Subsets
+> We ran Random Forest Classification models on the subsets of Republican and Democrat respondents. 
+
+| Most Important Issues For Republicans   | Most Important Issues for Democrats |
+|-----------------------------------------|-------------------------------------|
+| ![Republicans](images/republicans.jpeg) | ![Democrats](images/democrats.jpeg) |
+
+<a name='modeling_income_level'></a>
+## Modeling the Income Level Subsets 
+> We ran Random Forest Classification models on on the subsets for income groups less than \\$30,000, between \\$30,000 and \\$75,000, and more than \\$75,000.
+
+| Most Important Issues For Lower Income Level | Most Important Issues for Middle Income Level | Most Important Issues for Upper Income Level |
+|----------------------------------------------|-----------------------------------------------|----------------------------------------------|
+| ![lower](images/lower_income_group.jpeg)     | ![middle](images/middle_income_group.jpeg)    | ![higher](images/upper_income_group.jpeg)    |
+
+<a name='modeling_education_level'></a>
+## Modeling the Education Level Subsets
+> We ran Random Forest Classification models on the subsets for the respondents' highest education level, grouped by: high school or less, some college, or college graduate and above. 
+
+| Most Important Issues For Highest Education High School or Less | Most Important Issues For Highest Education Some College | Most Important Issues For Highest Education College Degree |
+|-----------------------------------------------------------------|----------------------------------------------------------|------------------------------------------------------------|
+| ![high_school](images/education_high_school_or_less.jpeg)       | ![middle](images/middle_income_group.jpeg)               | ![higher](images/education_college_graduate.jpeg)          |
 
 <a name='out_of_sample'></a>
 ## Out of Sample
