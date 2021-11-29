@@ -1049,7 +1049,9 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 ## Modeling the Gender Subset
 > We ran Random Forest Classification models on the subsets of female and male respondents. 
 
-<img src="images/females.jpeg" width="425"/> <img src="images/males.jpeg" width="425"/> 
+| Most Important Issues For Women | Most Important Issues for Men |
+|---------------------------------|-------------------------------|
+| ![females](images/females.jpeg) | ![males](images/males.jpeg)   |
 
 <a name='out_of_sample'></a>
 ## Out of Sample
