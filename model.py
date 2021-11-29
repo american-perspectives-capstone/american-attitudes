@@ -60,7 +60,7 @@ def decision_tree_models(depth):
     tree_model_name_list = []
 
     # create list of model names that correspond to models
-    for i in range(3, 10):
+    for i in range(3, depth):
         tree_model_name_list.append(f"decision_tree_depth_{i}")
 
     
@@ -92,7 +92,7 @@ def random_forest_models(samples, depth, number_of_features):
     
     #Loop through user-defines depths and number of samples to make Random Forest Model labels
     for i in range(3, samples):
-        for j in range(0, depth):
+        for j in range(1, depth):
             forest_name_list.append(f"{number_of_features}_features_random_forest_min_samples_leaf_{i}_depth_{j}")
         
     #Return list of models and list of model names
