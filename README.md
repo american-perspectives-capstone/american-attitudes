@@ -1044,11 +1044,21 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 ![model_comparison](images/model_comparison.png)
 
+<a name='modeling_gender'></a>
+
+## Modeling the Gender Subset
+> We ran Random Forest Classification models on the subsets of female and male respondents. 
+
+A | B
+- | - 
+![females](images/females.jpeg)| ![males](images/males.jpeg)
+
 <a name='out_of_sample'></a>
 ## Out of Sample
 > We ran our best performing model, selected above on the out-of-sample test dataset. We achieved a 76.54% accuracy. 
 
 <a name='modeling_takeaways'></a>
+
 ## Modeling Takeaways
 
 > - Big drivers of pessimism are public education and economics
