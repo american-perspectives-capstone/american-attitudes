@@ -198,7 +198,3 @@ def find_k(X_train, cluster_vars, k_range):
     plt.show()
 
     return k_comparisons_df
-
-
-
-
