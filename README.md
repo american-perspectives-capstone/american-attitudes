@@ -36,6 +36,7 @@
     7. [Modeling with just the top features](#top)
     9. [Model Comparison](#model_comparison)
     10. [Out of Sample Testing](#out_of_sample)
+    11. [Modeling the Gender Subsets)(#modeling_gender)
     11. [Modeling Takeaways](#modeling_takeaways)
 7. [Project Delivery](#delivery)
     1. [Conclusion & Next Steps](#conclusion_and_next_steps)
@@ -1045,13 +1046,10 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 ![model_comparison](images/model_comparison.png)
 
 <a name='modeling_gender'></a>
-
 ## Modeling the Gender Subset
 > We ran Random Forest Classification models on the subsets of female and male respondents. 
 
-A | B
-- | - 
-![females](images/females.jpeg)| ![males](images/males.jpeg)
+<img src="images/females.jpeg" width="425"/> <img src="images/males.jpeg" width="425"/> 
 
 <a name='out_of_sample'></a>
 ## Out of Sample
