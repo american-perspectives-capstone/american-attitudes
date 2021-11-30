@@ -191,7 +191,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 ## Statistical Test Results
 
-|                 |    chi2 |       p_val |   deg_free | expected_freq                 |
+| column_name |    chi2 |       p_val |   deg_free | expected_freq                 |
 |:----------------|--------:|------------:|-----------:|:------------------------------|
 | `happen_general`  | 309.847 | 5.21955e-68 |          2 | [[ 65.23082386  51.76917614]  |
 |                 |         |             |            |  [299.39275568 237.60724432]  |
@@ -265,10 +265,11 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 # Modeling & Evaluation
 ✓ _Plan_ ➜ ✓ _Acquire_ ➜ ✓ _Prepare_ ➜ ✓ _Explore_ ➜ 🟢 **Model** ➜ ☐ _Deliver_
 
-> - We dropped columns that were too closely related to the derivative of our target column (`is_pes`):
-> - Those columns ended up being `avg_family`, `attitude`, `pes_val`, `is_very_pes` and `is_very_opt`.
-> - We also dropped `qkey` since it is only an id value and will not provide any information since each is a unique value.
-> - We split our train, validate, and test columns to feature dataframes and target series.
+> - We first have to choose a baseline to compare our models against.
+> - The main models we will be using are Decision Tree, Random Forest, and K-Nearest Neighbor.
+> - We will use different variations of our models until we determine one model to have outperformed our baseline and to have avoided overfitting or underfitting on the training data.
+> - We will also be testing feature importance to see what drives an individual's overall attitude.
+> - Once we choose our best model, we will run this model on our Out-of-sample dataset.
 
 <a name='baseline'></a>
 ## Baseline
@@ -293,7 +294,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 <a name='feature_importance'></a>
 ## Feature Importance
-> Of the models mentioned above, our best performing model was the Random Forest Classifier with depth 8, min samples leaf 3. We utilized this model to perform feature importance on the features in our dataset. We found that public education and US economics are major drivers of pessimism. 
+> Of the models mentioned above, our best performing model was the Random Forest Classifier with depth 8, min samples leaf 3. We utilized this model to perform feature importance on the features in our dataset. We found that public education and U.S. economics are major drivers of pessimism. 
 
 ![feature_importance_plot](images/feature_importance.jpeg)
 
