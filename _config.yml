@@ -3,5 +3,5 @@ theme: jekyll-theme-cayman
 # Name of website
 title: American Attitudes
 
-source: /website_resources/index.html
+source: index.html
 
