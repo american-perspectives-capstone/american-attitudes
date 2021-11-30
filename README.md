@@ -216,15 +216,15 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 ### Males vs Females Pessimisim
 
-![Male_vs_female_pessimisim_plot](images/fem_male_pessimism_percentage.png)
+![Male_vs_female_pessimisim_plot](images/fem_male_pessimism_percentage.jpeg)
 
 ### Family Income Pessimisim
 
-![family_income_pessimism_plot](images/percent_is_pes_by_family_income.png)
+![family_income_pessimism_plot](images/percent_is_pes_by_family_income.jpeg)
 
 ### Educational Attainment Pessimisim
 
-![educational_attainment_pessimisim_plot](images/percent_is_pes_by_highest_education_six_categories.png)
+![educational_attainment_pessimisim_plot](images/percent_is_pes_by_highest_education_six_categories.jpeg)
 
 
 <a name='hypotheses'></a>
@@ -295,7 +295,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 ## Feature Importance
 > Of the models mentioned above, our best performing model was the Random Forest Classifier with depth 8, min samples leaf 3. We utilized this model to perform feature importance on the features in our dataset. We found that public education and US economics are major drivers of pessimism. 
 
-![feature_importance_plot](images/feature_importance.png)
+![feature_importance_plot](images/feature_importance.jpeg)
 
 <a name='top'></a>
 ## Modeling with just the top features
@@ -305,7 +305,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 ## Model Comparison
 > Our best performing model was the Random Forest Classifier which included all features and had min samples leaf 3 and a depth of 8. This model had an accuracy of 80.46% on the validate dataset.
 
-![model_comparison](images/model_comparison.png)
+![model_comparison](images/model_comparison.jpeg)
 
 <a name='modeling_gender'></a>
 ## Modeling the Gender Subset
