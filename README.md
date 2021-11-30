@@ -373,22 +373,29 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 ## Conclusion and Next Steps
 > - While it appeared that there may have been a significant difference between the genders and their pessimisim, it was not result in this instance. 
-> Additionally, our other potential observation, that there would be a significant difference in the pessimisim reletive to income, it was again not the result in this instance.
+> - Additionally, our other potential observation, that there would be a significant difference in the pessimisim reletive to income, it was again not the result in this instance.
 > - The next step is to continue finalizing the work and ensuring our work is throughly documented.
 > - With more time we will continue examining multiple different feature combinations and test for significance from these observations.
 
 <a name='replication'></a>
 ## Project Replication
 > - Statistical data can be downloaded from <a href="https://www.kaggle.com/shankanater/american-trends-panel-pewresearch/download">here</a>.
+>
 > - You can read the SPSS Statistic data file with `pandas.read_spss("ATP W41.sav")`
 
 <a name='data_use'></a>
 ## Data Use Agreements
 > - The source of the data with express reference to the center in accordance with the following citation: “Pew Research Center’s American Trends Panel”
 > - Any hypothesis, insight and or result within this project in no way implies or suggests as attributing a particular policy or lobbying objective or opinion to the Center, and
+>
 > - “The opinions expressed herein, including any implications for policy, are those of the author and not of Pew Research Center.”
 > - Information on The American Trends Panel (ATP) can be found at <a href="https://www.pewresearch.org/our-methods/u-s-surveys/the-american-trends-panel/" target="_blank">The American Trends Panel</a>
 > - More information on these user agreements can be found at <a href="https://www.pewresearch.org/about/terms-and-conditions/" target="_blank">Pew Research</a>.
+>
+>
+> **Citation**
+>
+> <a href="https://www.pewresearch.org/social-trends/dataset/american-trends-panel-wave-41/">"American Trends Panel Wave 41.”</a> Pew Research Center, Washington, D.C. (December 27, 2018).
 
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
