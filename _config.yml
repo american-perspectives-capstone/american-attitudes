@@ -1,0 +1,10 @@
+theme: jekyll-theme-cayman
+source: README.md
+
+# Name of website
+title: American Attitudes
+description: Our team acquired survey data from the Pew Research Panel, and we explored the drivers of pessimism in American Prospective Attitudes. Understanding what most likely drives pessimistic or optimistic thinking about the future will help business leaders clarify strategies for moving forward and guide expectations of future success in the customers they serve, products offered, investments made, in Marketing and Sales, and throughout their business organization.
+baseurl: ''
+url: ''
+
+github_username: CharlesAtchison

@@ -191,7 +191,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 ## Statistical Test Results
 
-|                 |    chi2 |       p_val |   deg_free | expected_freq                 |
+| column_name |    chi2 |       p_val |   deg_free | expected_freq                 |
 |:----------------|--------:|------------:|-----------:|:------------------------------|
 | `happen_general`  | 309.847 | 5.21955e-68 |          2 | [[ 65.23082386  51.76917614]  |
 |                 |         |             |            |  [299.39275568 237.60724432]  |
@@ -216,15 +216,15 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 ### Males vs Females Pessimisim
 
-![Male_vs_female_pessimisim_plot](images/fem_male_pessimism_percentage.png)
+![Male_vs_female_pessimisim_plot](images/fem_male_pessimism_percentage.jpeg)
 
 ### Family Income Pessimisim
 
-![family_income_pessimism_plot](images/percent_is_pes_by_family_income.png)
+![family_income_pessimism_plot](images/percent_is_pes_by_family_income.jpeg)
 
 ### Educational Attainment Pessimisim
 
-![educational_attainment_pessimisim_plot](images/percent_is_pes_by_highest_education_six_categories.png)
+![educational_attainment_pessimisim_plot](images/percent_is_pes_by_highest_education_six_categories.jpeg)
 
 
 <a name='hypotheses'></a>
@@ -265,10 +265,11 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 # Modeling & Evaluation
 ✓ _Plan_ ➜ ✓ _Acquire_ ➜ ✓ _Prepare_ ➜ ✓ _Explore_ ➜ 🟢 **Model** ➜ ☐ _Deliver_
 
-> - We dropped columns that were too closely related to the derivative of our target column (`is_pes`):
-> - Those columns ended up being `avg_family`, `attitude`, `pes_val`, `is_very_pes` and `is_very_opt`.
-> - We also dropped `qkey` since it is only an id value and will not provide any information since each is a unique value.
-> - We split our train, validate, and test columns to feature dataframes and target series.
+> - We first have to choose a baseline to compare our models against.
+> - The main models we will be using are Decision Tree, Random Forest, and K-Nearest Neighbor.
+> - We will use different variations of our models until we determine one model to have outperformed our baseline and to have avoided overfitting or underfitting on the training data.
+> - We will also be testing feature importance to see what drives an individual's overall attitude.
+> - Once we choose our best model, we will run this model on our Out-of-sample dataset.
 
 <a name='baseline'></a>
 ## Baseline
@@ -293,9 +294,9 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 <a name='feature_importance'></a>
 ## Feature Importance
-> Of the models mentioned above, our best performing model was the Random Forest Classifier with depth 8, min samples leaf 3. We utilized this model to perform feature importance on the features in our dataset. We found that public education and US economics are major drivers of pessimism. 
+> Of the models mentioned above, our best performing model was the Random Forest Classifier with depth 8, min samples leaf 3. We utilized this model to perform feature importance on the features in our dataset. We found that public education and U.S. economics are major drivers of pessimism. 
 
-![feature_importance_plot](images/feature_importance.png)
+![feature_importance_plot](images/feature_importance.jpeg)
 
 <a name='top'></a>
 ## Modeling with just the top features
@@ -305,7 +306,7 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 ## Model Comparison
 > Our best performing model was the Random Forest Classifier which included all features and had min samples leaf 3 and a depth of 8. This model had an accuracy of 80.46% on the validate dataset.
 
-![model_comparison](images/model_comparison.png)
+![model_comparison](images/model_comparison.jpeg)
 
 <a name='modeling_gender'></a>
 ## Modeling the Gender Subset
@@ -372,22 +373,29 @@ labels. For this reason, it is highly recommended that you use either SPSS or R 
 
 ## Conclusion and Next Steps
 > - While it appeared that there may have been a significant difference between the genders and their pessimisim, it was not result in this instance. 
-> Additionally, our other potential observation, that there would be a significant difference in the pessimisim reletive to income, it was again not the result in this instance.
+> - Additionally, our other potential observation, that there would be a significant difference in the pessimisim reletive to income, it was again not the result in this instance.
 > - The next step is to continue finalizing the work and ensuring our work is throughly documented.
 > - With more time we will continue examining multiple different feature combinations and test for significance from these observations.
 
 <a name='replication'></a>
 ## Project Replication
 > - Statistical data can be downloaded from <a href="https://www.kaggle.com/shankanater/american-trends-panel-pewresearch/download">here</a>.
+>
 > - You can read the SPSS Statistic data file with `pandas.read_spss("ATP W41.sav")`
 
 <a name='data_use'></a>
 ## Data Use Agreements
 > - The source of the data with express reference to the center in accordance with the following citation: “Pew Research Center’s American Trends Panel”
 > - Any hypothesis, insight and or result within this project in no way implies or suggests as attributing a particular policy or lobbying objective or opinion to the Center, and
+>
 > - “The opinions expressed herein, including any implications for policy, are those of the author and not of Pew Research Center.”
 > - Information on The American Trends Panel (ATP) can be found at <a href="https://www.pewresearch.org/our-methods/u-s-surveys/the-american-trends-panel/" target="_blank">The American Trends Panel</a>
 > - More information on these user agreements can be found at <a href="https://www.pewresearch.org/about/terms-and-conditions/" target="_blank">Pew Research</a>.
+>
+>
+> **Citation**
+>
+> <a href="https://www.pewresearch.org/social-trends/dataset/american-trends-panel-wave-41/">"American Trends Panel Wave 41.”</a> Pew Research Center, Washington, D.C. (December 27, 2018).
 
 
 <div style="text-align: right"><a href='#toc'>Table of Contents</a></div>
